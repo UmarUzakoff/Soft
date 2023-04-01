@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <title>Log2Base2 Testimonials</title>
+    <!-- jquery cdn link -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"></script>
+    <style>
+      *,
+      *:before,
+      *:after {
+        padding: 0;
+        margin: 0;
+
+      }
+      .wrapper {
+        box-sizing: content-box;
+        background-color: transparent;
+        height: 70px;
+        padding: 20px 30px;
+        display: flex;
+      }
+      .words {
+        overflow: hidden;
+      }
+      .spann {
+        display: block;
+        height: 100%;
+        padding-left: 10px;
+        animation: spin_words 10s infinite;
+      }
+      @keyframes spin_words {
+        10% {
+          transform: translateY(-112%);
+        }
+        25% {
+          transform: translateY(-100%);
+        }
+        35% {
+          transform: translateY(-212%);
+        }
+        50% {
+          transform: translateY(-200%);
+        }
+        60% {
+          transform: translateY(-312%);
+        }
+        75% {
+          transform: translateY(-300%);
+        }
+        85% {
+          transform: translateY(-412%);
+        }
+        100% {
+          transform: translateY(-400%);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>
